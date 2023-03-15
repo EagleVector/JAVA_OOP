@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a36c0e1f-3700-4e73-ba3c-0244f7a57248" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cherry/packagetutorial/pack1/Greeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cherry/packagetutorial/pack2/Greeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cherry/packagetutorial/pack3/Greeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cherry/packagetutorial/pack3/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cherry/staticExample/InnerClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cherry/staticExample/StaticBlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/OOPS/Introduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cherry/OOP/Introduction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/OOPS/WrapperExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cherry/OOP/WrapperExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cherry/staticExample/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cherry/staticExample/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cherry/staticExample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cherry/staticExample/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +43,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
