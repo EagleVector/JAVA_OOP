@@ -1,6 +1,4 @@
-package com.OOPS;
-
-import java.util.Arrays;
+package com.cherry.OOP;
 
 public class Introduction {
     public static void main(String[] args) {

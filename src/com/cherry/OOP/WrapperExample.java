@@ -1,4 +1,4 @@
-package com.OOPS;
+package com.cherry.OOP;
 
 public class WrapperExample {
     public static void main(String[] args) {
