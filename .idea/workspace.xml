@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a36c0e1f-3700-4e73-ba3c-0244f7a57248" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cherry/singletonn/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cherry/singletonn/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cherry/properties/inheritance/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cherry/properties/inheritance/BoxPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cherry/properties/inheritance/BoxWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cherry/properties/inheritance/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,20 +67,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/cherry/singletonn/Main.java</url>
-          <line>3</line>
-          <properties class="com.cherry.singletonn.Main" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
