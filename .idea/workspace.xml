@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a36c0e1f-3700-4e73-ba3c-0244f7a57248" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cherry/properties/inheritance/BoxColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cherry/properties/polymorphism/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cherry/properties/polymorphism/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cherry/properties/polymorphism/Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cherry/properties/polymorphism/Shapes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cherry/properties/polymorphism/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cherry/properties/polymorphism/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cherry/properties/inheritance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cherry/properties/inheritance/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
