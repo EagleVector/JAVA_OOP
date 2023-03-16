@@ -26,5 +26,8 @@ public class Main {
 //        BoxWeight box6 = new Box(2,4, 6, 1); Not possible
         BoxPrice boxp = new BoxPrice(4, 2, 400);
         System.out.println(boxp.h +" "+ boxp.l+" "+ boxp.w+" "+ boxp.price+" "+ boxp.weight);
+
+        BoxColor boxc = new BoxColor(4, 3, "Green");
+        System.out.println(boxc.h + " " + boxc.l + " " + boxc.w + " " + boxc.weight + " " + boxc.colour);
     }
 }
