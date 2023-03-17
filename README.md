@@ -13,3 +13,13 @@
 2. Wrapping up all the classes, methods, properties into one. --> "Encapsulating".
 3. It is a subset of data hiding. We use getters setters etc.
 4. How the car is built using various components different functions, tech, dynamics --> Encapsulation
+
+
+## In-Built Packages in Java
+
+1. lang --> Automatically imported. (Object Class)
+2. io --> input/output.
+3. util --> utility classes(Data Structures & Collection Framework)
+4. applet --> applets in java. Servelets
+5. awt --> GUI
+6. net --> networking and stuffs.
