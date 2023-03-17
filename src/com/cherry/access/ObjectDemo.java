@@ -27,7 +27,7 @@ public class ObjectDemo {
     }
 
     public static void main(String[] args) {
-//        ObjectDemo obj = new ObjectDemo(25);
+        ObjectDemo obj = new ObjectDemo(25);
 //        ObjectDemo obj2 = obj;
 //
 //        if (obj == obj2) {
@@ -37,7 +37,9 @@ public class ObjectDemo {
 //        if (obj.equals(obj2)) {
 //            System.out.println("obj is equal to obj2");
 //        }
+//        System.out.println(obj instanceof Object);
 
+        System.out.println(obj.getClass());
 
 
 // Same address
