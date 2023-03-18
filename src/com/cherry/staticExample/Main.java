@@ -21,7 +21,7 @@ public class Main {
 //        either make the method static
 //        or create an object of the non-static method.
 //        This is how we do it.
-//        Main funn = new Main();
+//        Extending funn = new Extending();
 //        funn.fun();
         fun();
         Human.welcome();
