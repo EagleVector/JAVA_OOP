@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a36c0e1f-3700-4e73-ba3c-0244f7a57248" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cherry/Abstraction/Daughter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cherry/Abstraction/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cherry/Abstraction/Son.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cherry/Interfaces/Brake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cherry/Interfaces/CDPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cherry/Interfaces/ElectricEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cherry/Interfaces/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cherry/Interfaces/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cherry/Interfaces/Media.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cherry/Interfaces/NiceCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cherry/Interfaces/Normal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cherry/Interfaces/PowerEngine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cherry/Abstraction/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cherry/Abstraction/Parent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
