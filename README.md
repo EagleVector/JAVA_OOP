@@ -23,3 +23,5 @@
 4. applet --> applets in java. Servelets
 5. awt --> GUI
 6. net --> networking and stuffs.
+
+Annotation internally is an interface.
