@@ -30,8 +30,101 @@ public class RecLive {
 //        System.out.println(findelement(arr, target, 0));
 //        String str = "abc";
 //        PrintSSAscii("", str);
-
+//        String str = "abc";
+//        PermutationBT(str, 0, str.length() - 1);
+//        System.out.println(Robot(0, 0, 3,4));
+//        int[][] maze = {
+//                {1, 0, 0, 0},
+//                {1, 1, 0, 1},
+//                {0, 1, 0, 0},
+//                {1, 1, 1, 1}
+//        };
+//
+//        int[][] path = new int[maze.length][maze[0].length];
+//
+//        RatInAMaze(maze, 0, 0, path, 1);
+//    }
     }
+//
+//    public static void RatInAMaze(int[][] maze, int row, int col, int[][] path, int step) {
+//        if (row == maze.length - 1 && col == maze[0].length - 1) {
+//            path[row][col] = step;
+//            for (int i = 0; i < path.length; i++) {
+//                int[] arr = path[i];
+//                System.out.println(Arrays.toString(arr));
+//            }
+//            System.out.println();
+//            return;
+//        }
+//
+//        if (maze[row][col] == 0) {
+//            return;
+//        }
+//
+//        maze[row][col] = 0;
+//        path[row][col] = step;
+//
+//        if (row < maze.length - 1) {
+//            RatInAMaze(maze, row + 1, col, path, step);
+//        }
+//
+//        if (col < maze[0].length - 1) {
+//            RatInAMaze(maze, row, col + 1, path, step);
+//        }
+//
+//        maze[row][col] = 1;
+//        path[row][col] = 0;
+//    }
+//}
+
+//    public static int Robot(int m, int n, int row, int col) {
+//        if (m == row - 1 || n == col - 1) {
+//            return 1;
+//        }
+//
+//        int right = Robot(m + 1, n, row, col);
+//        int down = Robot(m, n + 1, row, col);
+//        return right + down;
+//        }
+//    }
+
+//    public static void PermutationBT(String str, int start, int end) {
+//        if (start == end) {
+//            System.out.println(str);
+//        }
+//        else {
+//
+//            for (int i = start; i <= end; i++) {
+//
+//                str = swap(str, start, i);
+//                PermutationBT(str, start + 1, end);
+//                str = swap(str, start, i);
+//            }
+//        }
+//    }
+//    public static String swap(String a, int i, int j) {
+//        char[] charArray = a.toCharArray();
+//
+//        char temp = charArray[i];
+//        charArray[i] = charArray[j];
+//        charArray[j] = temp;
+//
+//        return String.valueOf(charArray);
+//    }
+
+//    public static void Permutation(String answer, String question) {
+//        if (question.isEmpty()) {
+//            System.out.println(answer);
+//            return;
+//        }
+//        char ch = question.charAt(0);
+//
+//        for (int i = 0; i <= answer.length(); i++) {
+//            String first = answer.substring(0,i);
+//            String second = answer.substring(i,answer.length());
+//            Permutation(first + ch + second, question.substring(1));
+//        }
+//    }
 
 //    private static void PrintSSAscii(String processed, String unprocessed) {
 //        if (unprocessed.isEmpty()) {
@@ -152,7 +245,4 @@ public class RecLive {
 //            System.out.println(n);
 //        }
 //    }
-
-
-
 }
