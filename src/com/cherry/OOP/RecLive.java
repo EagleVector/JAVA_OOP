@@ -5,6 +5,11 @@ import java.util.Arrays;
 
 public class RecLive {
     public static void main(String[] args) {
+//        int n = 4;
+//        boolean[][] chessboard = new boolean[n][n];
+//        queens(chessboard, 0, 0, n, 0, "");
+        // params : board, row, col, total queen, queens placed, coordinates
+
 //        printincreasing(7);
 //        int[] arr = {1, 2, 2, 5, 1, 5, 1, 5, 6, 1};
 //        System.out.println(Arrays.toString(uniqueoccurence(arr)));
@@ -44,7 +49,65 @@ public class RecLive {
 //
 //        RatInAMaze(maze, 0, 0, path, 1);
 //    }
+//        int[] arr = {2, 3, 5, 6, 7};
+//        coinchangecombination(arr, 12, 0);
+
     }
+//    public static ArrayList<Integer> coinchangecombination(int[] denominations, int target, int sum) {
+//        if (sum == target) {
+//            ArrayList<Integer> list = new ArrayList<>();
+//            list.add(sum);
+//            return list;
+//        }
+//
+//        for (int i = 0; i <= denominations.length && i <= target; i++) {
+//            coinchangecombination(denominations, target, sum + denominations[i]);
+//        }
+//    }
+
+
+//    public static void queens(boolean[][] chessboard, int row, int col, int totalqueens, int queensplaced, String coordinates) {
+//        if (queensplaced == totalqueens) {
+//            System.out.println(coordinates);
+//            return;
+//        }
+//
+//
+//        for (col = 0; col < chessboard.length; col++) {
+//            if (isSafe(chessboard, row, col)) {
+//                chessboard[row][col] = true;
+//                queens(chessboard, row + 1, col, totalqueens, queensplaced + 1, coordinates + "(" + row + "," + col + ")" + " ");
+//                chessboard[row][col] = false;
+//            }
+//        }
+//    }
+//
+//    public static boolean isSafe(boolean[][] chessboard, int row, int col) {
+//        // Vertical check.
+//        for (int i = 0; i < row; i++) {
+//            if (chessboard[i][col]) {
+//                return false;
+//            }
+//        }
+//        // Diagonal left
+//        int maxLeft = Math.min(row, col);
+//        for (int i = 1; i <= maxLeft; i++) {
+//            if (chessboard[row-i][col-i]) {
+//                return false;
+//            }
+//        }
+//
+//        // Diagonal right
+//        int maxRight = Math.min(row, chessboard.length - col - 1);
+//        for (int i = 1; i <= maxRight; i++) {
+//            if (chessboard[row-i][col+i]) {
+//                return false;
+//            }
+//        }
+//
+//        return true;
+//    }
+
 //
 //    public static void RatInAMaze(int[][] maze, int row, int col, int[][] path, int step) {
 //        if (row == maze.length - 1 && col == maze[0].length - 1) {
