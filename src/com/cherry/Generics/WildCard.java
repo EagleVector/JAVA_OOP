@@ -98,14 +98,14 @@ public class WildCard<T extends Number> {
 
     public static void main(String[] args) {
         // The Custom array list that we have created can only store integers.
-        WildCard<String> list = new WildCard();
+        WildCard<Number> list = new WildCard();
 //        list.add(9);
 //        list.add(5);
 //        list.add(3);
-        list.add("sunny");
+        list.add(12);
 
         for (int i = 1; i < 15; i++) {
-            list.add("A" + i);
+            list.add(i);
         }
 
         System.out.println(list);
