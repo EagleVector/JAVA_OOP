@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a36c0e1f-3700-4e73-ba3c-0244f7a57248" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cherry/Collections/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cherry/Enums/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cherry/Enums/Basics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
