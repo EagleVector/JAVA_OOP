@@ -1,9 +1,12 @@
 package com.cherry.Generics;
 
-import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
-public class CustomGenArrayList<T> {
+// Further restrictions on the type checking.
+
+// Here T should either be number or its subclass.
+public class WildCard<T extends Number> {
 
 // Actual arraylist can store int, string, bool, float etc.
 //        ArrayList list = new ArrayList();
@@ -27,12 +30,21 @@ public class CustomGenArrayList<T> {
 //        We want to use our Custom Array List to store string, float, bool, double etc.
 //        For that we use generics.
 
+
     private Object[] data;
     private static int DEFAULT_SIZE = 10;
     private int size = 0;
 
-    public CustomGenArrayList() {
+    public WildCard() {
+
         this.data = new Object[DEFAULT_SIZE];
+
+    }
+
+    public void getlist(List<? extends Number> list) {
+        // do something
+
+        // Here you can only pass Number type
     }
 
     public void add(T num) {
@@ -86,7 +98,7 @@ public class CustomGenArrayList<T> {
 
     public static void main(String[] args) {
         // The Custom array list that we have created can only store integers.
-        CustomGenArrayList<String> list = new CustomGenArrayList();
+        WildCard<String> list = new WildCard();
 //        list.add(9);
 //        list.add(5);
 //        list.add(3);

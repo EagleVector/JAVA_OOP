@@ -3,7 +3,7 @@ package com.cherry.Generics;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class CustomArrayList {
+public class CustomGenArrayList<T> {
 
 // Actual arraylist can store int, string, bool, float etc.
 //        ArrayList list = new ArrayList();
@@ -17,15 +17,25 @@ public class CustomArrayList {
 //        System.out.println(list);
 //        System.out.println(list.isEmpty());
 
-    private int[] data;
+//        We are making it a generic class.
+//        GENERICS
+//        ArrayList<String> list2 = new ArrayList<>();
+//        list2.add(10);
+//        list2.add("ghjk");
+//        <Integer> --> Generics. We can only add classes in generics.
+//        Parameterized input is very important --> For Type Safety (valid inputs)
+//        We want to use our Custom Array List to store string, float, bool, double etc.
+//        For that we use generics.
+
+    private Object[] data;
     private static int DEFAULT_SIZE = 10;
     private int size = 0;
 
-    public CustomArrayList() {
-        this.data = new int[DEFAULT_SIZE];
+    public CustomGenArrayList() {
+        this.data = new Object[DEFAULT_SIZE];
     }
-    
-    public void add(int num) {
+
+    public void add(T num) {
         if (isFull()) {
             resize();
         }
@@ -33,7 +43,7 @@ public class CustomArrayList {
     }
 
     private void resize() {
-        int[] temp = new int[data.length * 2];
+        Object[] temp = new Object[data.length * 2];
 
         // Copy the current items in the new array.
         for (int i = 0; i < data.length; i++) {
@@ -43,23 +53,26 @@ public class CustomArrayList {
     }
 
     private boolean isFull() {
+
         return size == data.length;
     }
 
-    public int remove() {
-        int removed = data[--size];
+    public T remove() {
+        T removed = (T)(data[--size]);
         return removed;
     }
 
-    public int get(int index) {
-        return data[index];
+    public T get(int index) {
+        return (T)(data[index]);
     }
 
     public int size() {
+
         return size;
     }
 
-    public void set(int index, int replacement) {
+    public void set(int index, Object replacement) {
+
         data[index] = replacement;
     }
 
@@ -73,25 +86,17 @@ public class CustomArrayList {
 
     public static void main(String[] args) {
         // The Custom array list that we have created can only store integers.
-        CustomArrayList list = new CustomArrayList();
+        CustomGenArrayList<String> list = new CustomGenArrayList();
 //        list.add(9);
 //        list.add(5);
 //        list.add(3);
+        list.add("sunny");
 
-        for (int i = 0; i < 15; i++) {
-            list.add(i);
+        for (int i = 1; i < 15; i++) {
+            list.add("A" + i);
         }
 
         System.out.println(list);
-
-//        GENERICS
-        ArrayList<Integer> list2 = new ArrayList<>();
-        list2.add(10);
-//        list2.add("ghjk");
-//        <Integer> --> Generics. We can only add classes in generics.
-//        Parameterized input is very important --> For Type Safety (valid inputs)
-//        We want to use our Custom Array List to store string, float, bool, double etc.
-//        For that we use generics.
 
     }
 }
