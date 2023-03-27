@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a36c0e1f-3700-4e73-ba3c-0244f7a57248" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cherry/Comparators/GenericInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cherry/Comparators/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cherry/Comparators/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cherry/Comparators/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cherry/Generics/LambdaFun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
